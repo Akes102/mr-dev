@@ -21,10 +21,8 @@ for i in range(len(word)):
 
 #lets count to a number in different numbers
 
-print("lets count in 3's to 100 starting at 1")
-for i in range(1, 100, 3):
-    
-    print(i)
+print("lets count in 3's to 100 starting at 1")    
+print(i)
 
 
 print("now lets count in 3's to 100 starting at 0")
