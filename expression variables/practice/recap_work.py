@@ -147,7 +147,7 @@ def count_up(number):
 count_up(10)
 
 #check odd or even
-#remember to call inters we use a list[] 
+#remember to call integers we use a list[] 
 def odd_even(numbers):
     for num in numbers:
         if num % 2 == 0:
@@ -159,8 +159,14 @@ odd_even([1, 65, 8, 20, 7, 6])
 def count_vowels(word):
     count=0
     for letter in word:
-        if letter in "aeiou":
+        if letter in "aeiouAEIOU":
             count+=1
     return count
         
 print(count_vowels("Hi my name is Arnold"))
+
+
+
+name = input("what is your name? :")
+
+print (name)
